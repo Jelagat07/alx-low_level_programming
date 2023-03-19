@@ -1,5 +1,8 @@
 #include <stdio.h>
-/*int main is the entry point */
+/**
+ * main: the entry point
+ * return: Always 0 if successful
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle\n");
