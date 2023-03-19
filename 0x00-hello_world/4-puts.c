@@ -1,13 +1,10 @@
 #include <stdio.h>
-
-int main(void) /**
-		 *This is the entry point
-		 *always returns 0 if successful
-		 **/
+/*int main is the entry point */
+int main(void)
 {
 	/*string initialization*/
 	char progString[] = "Programming is like building a multilingual puzzle";
 
-	puts(progString\n);
+	puts(progString);
 	return (0);
 }
