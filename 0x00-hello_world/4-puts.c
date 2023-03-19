@@ -2,9 +2,6 @@
 /*int main is the entry point */
 int main(void)
 {
-	/*string initialization*/
-	char progString[] = "Programming is like building a multilingual puzzle";
-
-	puts(progString);
+	puts("\"Programming is like building a multilingual puzzle\n");
 	return (0);
 }
