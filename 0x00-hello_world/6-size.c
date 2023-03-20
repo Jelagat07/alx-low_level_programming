@@ -16,11 +16,11 @@ int main(void)
 	/**
 	 *  sizeof command to determine size of variables
 	*/
-	printf("Size of a char:%ld byte(s)\n", sizeof(chartype));
-	printf("Size of an int:%ld byte(s)\n", sizeof(int_type));
-	printf("Size of a long int:%ld byte(s)\n", sizeof(long_type));
-	printf("Size of a long long int:%ld byte(s)\n", sizeof(longl_type));
-	printf("Size of a float:%ld byte(s)\n", sizeof(float_type));
+	printf("Size of a char: %ld byte(s)\n", sizeof(chartype));
+	printf("Size of an int: %ld byte(s)\n", sizeof(int_type));
+	printf("Size of a long int: %ld byte(s)\n", sizeof(long_type));
+	printf("Size of a long long int: %ld byte(s)\n", sizeof(longl_type));
+	printf("Size of a float: %ld byte(s)\n", sizeof(float_type));
 
 	return (0);
 }
