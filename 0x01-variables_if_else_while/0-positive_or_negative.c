@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* main - entry point */
 
-/* Return: Always 0 if successful */
+/**
+ * main - Entry point
+ * Return: Always 0 if successful
+ * if ..else if..else: to check more than two conditions
+ */
 int main(void)
 {
 	int n;
