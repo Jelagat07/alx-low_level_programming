@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
  * main - Entry point
  * Return: Always 0(succsess)
@@ -6,6 +7,12 @@
  */
 int main(void)
 {
-	putchar("_putchar\n")
+	/*function to display the value*/
+	char ch1 = "_putchar";
+
+	putchar(display_put(ch1));
+
+	putchar("\n");
+	
 	return (0);
 }
