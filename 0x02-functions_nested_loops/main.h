@@ -1,1 +1,1 @@
-int display_put(char ch1);
+int display_put(int ch1);
