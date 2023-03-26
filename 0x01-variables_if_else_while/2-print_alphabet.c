@@ -1,19 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - Entry Point
+ * main - print alphabet in lowercase
+ * then a newline
  * Return: Always 0 if successful
- * while: performs action until a condition is mer
  */
 
 int main(void)
 {
-	char lower_letter = 'a';
+	char ch;
 
-	while (lower_letter <= 'z')
-	{putchar (lower_letter);
-	lower_letter++;
-	putchar ('\n');
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+	putchar(ch);
+	}
+	putchar('\n');
+
 	return (0);
 }
+
 
