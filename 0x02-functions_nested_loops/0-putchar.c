@@ -1,16 +1,17 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * print_char - displays the character _putchar
  * Return: Always 0(succsess)
- * putchar: function to output values
  */
 int main(void)
 {
-	/*Declaration*/
-	char* ch1 = "_putchar";
-
-	putchar(display_put(ch1)"\n");
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
