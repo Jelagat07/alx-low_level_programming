@@ -1,20 +1,17 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_alphabet - prints alphabet in lowercase followed by newline
+ * Return: Always 0
  */
 void print_alphabet(void); /*prototype*/
-/**
- * main - Entry point
- * Return: Always 0
- * while - output value so long as condition is met
- */
-void print_alphabet(void)
+int main(void)
 {
-	char ch;
-	for (ch = "a"; ch <= "z"; ch++)
-		
-	putchar(ch);
+	int n;
 
-	putchar("\n")
+	for (n = 97; n <= 122; n++)
+	{
+	_putchar(n);
+	}
+	_putchar('\n');
 }
 
