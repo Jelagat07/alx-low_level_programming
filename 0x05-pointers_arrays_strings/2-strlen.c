@@ -2,14 +2,15 @@
 /**
  * _strlen - a function that returns the length of a string
  * Return: Always 0-success
- * @s: a string of characters
+ * @s: a pointer to a character string
  */
 int _strlen(char *s)
 {
-	int len;
-	
-	s = "a short character string";
-	len = _strlen(s);
-	printf("%d\n", len);
-	return (0);
+	int count = 0;
+
+	while (*s != '\0')
+	{count++;
+	s++;
+	}
+	return (count);
 }
