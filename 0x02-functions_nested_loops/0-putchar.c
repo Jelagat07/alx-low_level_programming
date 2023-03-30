@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * main - Entry point
  * print_char - displays the character _putchar
  * Return: Always 0(succsess)
  */
