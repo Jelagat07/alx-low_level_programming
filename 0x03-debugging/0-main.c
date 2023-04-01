@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
- * positive_or_negative: determines the status of an input
+ * main - checks function that determines the sign of an input
  * Return: Always 0 if successful
  */
 int main(void)
