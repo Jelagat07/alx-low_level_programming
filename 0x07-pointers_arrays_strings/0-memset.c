@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * *_memset - fills memory with a constant byte
+ * * _memset - fills memory with a constant byte
  * @s: memory area to be filled
  * @b: character to be copied
- * @n: bytes for each value
+ * @n: number of bytes to be set
  */
 char *_memset(char *s, char b, unsigned int n)
 {
