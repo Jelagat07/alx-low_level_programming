@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- * print_most_numbers - prints numbers 0 to 9 ten times
+ * print_most_numbers - prints numbers 0 to 9 followed by
+ * a newline
  * excluding 2 and 4
  * Return: void
  */
 void print_most_numbers(void)
 {
-	char c;
+	int c;
 
 	for (c = 48; c < 58; c++)
 	{
